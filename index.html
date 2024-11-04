@@ -1,17 +1,23 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>shopping-list</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <label for="name">Name:</label>
-    <input type="text" id="input" name="name" placeholder="Enter items">
+    <div>
+        <label for="name">item:</label>
+        <input type="text" id="input" name="name" placeholder="Enter items">
+        <button id="addButton">add</button>
+    </div>
     <ul class="itemlist"></ul>
-    <button onclick="addItem()">add</button>
-    <button>mark purchased</button>
-    <button>clear list</button>
+    <button id="purchasedButton">purchased</button>
+    <button id="clearButton">clear list</button>
     <script src="index.js"></script>
 
 </body>
+
 </html>
