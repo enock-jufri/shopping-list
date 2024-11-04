@@ -1,0 +1,26 @@
+.purchased {
+    text-decoration: line-through;
+    color: rgb(255, 0, 0);
+}
+
+.selected {
+    color: blue;
+}
+
+#addButton {
+    background-color: rgb(64, 165, 64);
+    color: white;
+    font-weight: bold;
+}
+
+#clearButton {
+    background-color: rgb(253, 107, 107);
+    color: white;
+    font-weight: bold;
+}
+
+#purchasedButton {
+    background-color: rgb(46, 98, 243);
+    color: white;
+    font-weight: bold;
+}
